@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="inputValue form-control"
+          placeholder="Enter a city name"
+          aria-label="Recipient's username"
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="button btn btn-success"
+          type="submit"
+          value="Submit"
+          id="button-addon2"
+        >
+          Submit
+        </button>
+      </div>
+      <div class="display card container">
+        <h1>Weather Report</h1>
+        <h3 class="name"></h3>
+        <div class="descBox">
+          <p class="desc"></p>
+        </div>
+        <div class="descbox-sec">
+          <p class="icon"></p>
+          <p class="temp"></p>
+          <p class="humidity"></p>
+          <p><span class="long"></span> <span class="lat"></span></p>
+        </div>
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>
+
+<!-- <div class="input">
+  <input type="text" class="inputValue" placeholder="Enter a city" />
+  <button type="submit" value="Submit" class="button btn btn-success">
+    Submit
+  </button>
+</div>
+<div class="display card container">
+  <h1>Weather Report</h1>
+  <h3 class="name"></h3>
+  <div class="descBox">
+    <p class="desc"></p>
+  </div>
+  <div class="descbox-sec">
+    <p class="icon"></p>
+    <p class="temp"></p>
+    <p class="humidity"></p>
+    <p><span class="long"></span> <span class="lat"></span></p>
+  </div>
+</div> -->

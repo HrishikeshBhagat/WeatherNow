@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito" sans-serif;
+  background-color: rgb(241, 241, 241);
+}
+
+.input {
+  text-align: center;
+  margin: 90px auto;
+}
+.inputValue {
+  width: 60%;
+  margin: auto 25px;
+}
+.input-group button {
+  /* width: 23%; */
+  margin: auto 22px;
+  background: rgb(21, 111, 129);
+  color: white;
+}
+
+input[type="text"] {
+  height: 50px;
+  width: 600px;
+  background: rgb(210, 221, 231);
+  font-family: monospace;
+  font-size: 1rem;
+  border: none;
+  padding: 4px 13px;
+}
+
+.input-group {
+  margin: 25px 0px;
+}
+
+.display {
+  text-align: center;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #ffffff;
+  background: #2c3e50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4ca1af,
+    #2c3e50
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4ca1af,
+    #2c3e50
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* min-height: 40vh; */
+  /* width: 50%; */
+  margin: 80px auto;
+  /* left: 50%;
+  top: 50%; */
+}
+.card {
+  width: 350px;
+}
+.display h3 {
+  font-family: monospace;
+  font-size: 1.6rem;
+  padding: 13px;
+}
+.display p {
+  padding: 8px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .display p:nth-child(2), .display p:nth-child(3){
+    float: right;
+    display: grid;
+} */
